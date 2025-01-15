@@ -26,7 +26,8 @@ header {
 .nav-content,
 .Featured-content,
 .offer-content,
-.Subscribe-content {
+.Subscribe-content,
+.instagram-content {
     color: #27272799;
     font-size: 18px;
 }
@@ -143,6 +144,29 @@ header {
     margin-top: 20px;
 }
 
+.instagram {
+    text-align: center;
+    margin: 50px;
+}
+
+.instagram-title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.instagram-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.instagram-img img {
+    width: 250px;
+}
+
 
 
 .Subscribe {
@@ -254,23 +278,37 @@ footer {
 
     }
 
+    .instagram-img {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .instagram-img img {
+        width: auto;
+    }
+
     .Subscribe {
         padding: 50px 100px;
         margin: 20px;
     }
+
     .Subscribe-title {
         font-weight: 800;
         font-size: 20px;
         margin-bottom: 20px;
     }
+
     .Subscribe-input {
         flex-direction: column;
     }
+
     .Subscribe-input-box {
         width: auto;
     }
+
     footer {
         padding: 50px;
     }
 
+    
 }
