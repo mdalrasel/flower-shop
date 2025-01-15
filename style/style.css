@@ -25,7 +25,8 @@ header {
 
 .nav-content,
 .Featured-content,
-.offer-content {
+.offer-content,
+.Subscribe-content {
     color: #27272799;
     font-size: 18px;
 }
@@ -142,6 +143,48 @@ header {
     margin-top: 20px;
 }
 
+
+
+.Subscribe {
+    background-image: url(../image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 122px 300px;
+    margin: 50px;
+}
+
+.Subscribe-title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Subscribe-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Subscribe-input-box {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 300px;
+    padding: 10px 30px;
+}
+
+.Subscribe-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+}
+
 footer {
     background: #111010;
     padding: 128px;
@@ -164,7 +207,8 @@ footer {
     margin: 20px;
 
 }
-.foot-content2{
+
+.foot-content2 {
     color: rgba(255, 255, 255, 0.40);
 }
 
@@ -201,13 +245,32 @@ footer {
     }
 
     .offer {
-        display: block;
+        flex-direction: column;
     }
 
     .offer div img {
         margin-top: 20px;
         padding-right: 60px;
 
+    }
+
+    .Subscribe {
+        padding: 50px 100px;
+        margin: 20px;
+    }
+    .Subscribe-title {
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .Subscribe-input {
+        flex-direction: column;
+    }
+    .Subscribe-input-box {
+        width: auto;
+    }
+    footer {
+        padding: 50px;
     }
 
 }
