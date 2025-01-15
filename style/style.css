@@ -128,7 +128,7 @@ header {
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 20px;
-    
+
 }
 
 .offer-btn {
@@ -137,9 +137,35 @@ header {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    border:none;
+    border: none;
     padding: 20px 43px;
     margin-top: 20px;
+}
+
+footer {
+    background: #111010;
+    padding: 128px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footflower {
+    color: #E55473;
+}
+
+.foot-content {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin: 20px;
+
+}
+.foot-content2{
+    color: rgba(255, 255, 255, 0.40);
 }
 
 
@@ -173,13 +199,15 @@ header {
     .support {
         display: block;
     }
-    .offer{
+
+    .offer {
         display: block;
     }
-    .offer div img{
+
+    .offer div img {
         margin-top: 20px;
         padding-right: 60px;
-        
+
     }
 
 }
